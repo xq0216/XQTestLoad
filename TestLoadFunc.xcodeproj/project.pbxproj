@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		801B46B720E0EF2B00735A88 /* XQB+BCategory1.m in Sources */ = {isa = PBXBuildFile; fileRef = 801B46B620E0EF2B00735A88 /* XQB+BCategory1.m */; };
 		805AC13B2085D64200A1ACEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 805AC13A2085D64200A1ACEB /* AppDelegate.m */; };
 		805AC13E2085D64200A1ACEB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 805AC13D2085D64200A1ACEB /* ViewController.m */; };
 		805AC1412085D64200A1ACEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 805AC13F2085D64200A1ACEB /* Main.storyboard */; };
@@ -15,6 +16,13 @@
 		805AC1492085D64200A1ACEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 805AC1482085D64200A1ACEB /* main.m */; };
 		805AC1532085D64300A1ACEB /* TestLoadFuncTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 805AC1522085D64300A1ACEB /* TestLoadFuncTests.m */; };
 		805AC15E2085D64300A1ACEB /* TestLoadFuncUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 805AC15D2085D64300A1ACEB /* TestLoadFuncUITests.m */; };
+		805AC16D2085D65C00A1ACEB /* XQA.m in Sources */ = {isa = PBXBuildFile; fileRef = 805AC16C2085D65C00A1ACEB /* XQA.m */; };
+		805AC1702085D66E00A1ACEB /* XQB.m in Sources */ = {isa = PBXBuildFile; fileRef = 805AC16F2085D66E00A1ACEB /* XQB.m */; };
+		805AC1732085D67D00A1ACEB /* XQB1.m in Sources */ = {isa = PBXBuildFile; fileRef = 805AC1722085D67D00A1ACEB /* XQB1.m */; };
+		805AC1762085D68E00A1ACEB /* XQC.m in Sources */ = {isa = PBXBuildFile; fileRef = 805AC1752085D68E00A1ACEB /* XQC.m */; };
+		805AC1792085D6E700A1ACEB /* XQB+BCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 805AC1782085D6E700A1ACEB /* XQB+BCategory.m */; };
+		805AC17C2085D7FC00A1ACEB /* XQA+ACategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 805AC17B2085D7FC00A1ACEB /* XQA+ACategory.m */; };
+		805AC17F2085D82300A1ACEB /* XQC+CCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 805AC17E2085D82300A1ACEB /* XQC+CCategory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		801B46B520E0EF2B00735A88 /* XQB+BCategory1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XQB+BCategory1.h"; sourceTree = "<group>"; };
+		801B46B620E0EF2B00735A88 /* XQB+BCategory1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "XQB+BCategory1.m"; sourceTree = "<group>"; };
 		805AC1362085D64200A1ACEB /* TestLoadFunc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestLoadFunc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		805AC1392085D64200A1ACEB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		805AC13A2085D64200A1ACEB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +61,20 @@
 		805AC1592085D64300A1ACEB /* TestLoadFuncUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestLoadFuncUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		805AC15D2085D64300A1ACEB /* TestLoadFuncUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestLoadFuncUITests.m; sourceTree = "<group>"; };
 		805AC15F2085D64300A1ACEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		805AC16B2085D65C00A1ACEB /* XQA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XQA.h; sourceTree = "<group>"; };
+		805AC16C2085D65C00A1ACEB /* XQA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XQA.m; sourceTree = "<group>"; };
+		805AC16E2085D66E00A1ACEB /* XQB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XQB.h; sourceTree = "<group>"; };
+		805AC16F2085D66E00A1ACEB /* XQB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XQB.m; sourceTree = "<group>"; };
+		805AC1712085D67D00A1ACEB /* XQB1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XQB1.h; sourceTree = "<group>"; };
+		805AC1722085D67D00A1ACEB /* XQB1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XQB1.m; sourceTree = "<group>"; };
+		805AC1742085D68E00A1ACEB /* XQC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XQC.h; sourceTree = "<group>"; };
+		805AC1752085D68E00A1ACEB /* XQC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XQC.m; sourceTree = "<group>"; };
+		805AC1772085D6E700A1ACEB /* XQB+BCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XQB+BCategory.h"; sourceTree = "<group>"; };
+		805AC1782085D6E700A1ACEB /* XQB+BCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "XQB+BCategory.m"; sourceTree = "<group>"; };
+		805AC17A2085D7FC00A1ACEB /* XQA+ACategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XQA+ACategory.h"; sourceTree = "<group>"; };
+		805AC17B2085D7FC00A1ACEB /* XQA+ACategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "XQA+ACategory.m"; sourceTree = "<group>"; };
+		805AC17D2085D82300A1ACEB /* XQC+CCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XQC+CCategory.h"; sourceTree = "<group>"; };
+		805AC17E2085D82300A1ACEB /* XQC+CCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "XQC+CCategory.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +129,22 @@
 				805AC13A2085D64200A1ACEB /* AppDelegate.m */,
 				805AC13C2085D64200A1ACEB /* ViewController.h */,
 				805AC13D2085D64200A1ACEB /* ViewController.m */,
+				805AC16B2085D65C00A1ACEB /* XQA.h */,
+				805AC16C2085D65C00A1ACEB /* XQA.m */,
+				805AC16E2085D66E00A1ACEB /* XQB.h */,
+				805AC16F2085D66E00A1ACEB /* XQB.m */,
+				805AC1712085D67D00A1ACEB /* XQB1.h */,
+				805AC1722085D67D00A1ACEB /* XQB1.m */,
+				805AC1742085D68E00A1ACEB /* XQC.h */,
+				805AC1752085D68E00A1ACEB /* XQC.m */,
+				805AC1772085D6E700A1ACEB /* XQB+BCategory.h */,
+				805AC1782085D6E700A1ACEB /* XQB+BCategory.m */,
+				801B46B520E0EF2B00735A88 /* XQB+BCategory1.h */,
+				801B46B620E0EF2B00735A88 /* XQB+BCategory1.m */,
+				805AC17A2085D7FC00A1ACEB /* XQA+ACategory.h */,
+				805AC17B2085D7FC00A1ACEB /* XQA+ACategory.m */,
+				805AC17D2085D82300A1ACEB /* XQC+CCategory.h */,
+				805AC17E2085D82300A1ACEB /* XQC+CCategory.m */,
 				805AC13F2085D64200A1ACEB /* Main.storyboard */,
 				805AC1422085D64200A1ACEB /* Assets.xcassets */,
 				805AC1442085D64200A1ACEB /* LaunchScreen.storyboard */,
@@ -265,8 +305,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				805AC13E2085D64200A1ACEB /* ViewController.m in Sources */,
 				805AC1492085D64200A1ACEB /* main.m in Sources */,
+				805AC13E2085D64200A1ACEB /* ViewController.m in Sources */,
+				805AC17F2085D82300A1ACEB /* XQC+CCategory.m in Sources */,
+				805AC17C2085D7FC00A1ACEB /* XQA+ACategory.m in Sources */,
+				805AC1792085D6E700A1ACEB /* XQB+BCategory.m in Sources */,
+				801B46B720E0EF2B00735A88 /* XQB+BCategory1.m in Sources */,
+				805AC1732085D67D00A1ACEB /* XQB1.m in Sources */,
+				805AC16D2085D65C00A1ACEB /* XQA.m in Sources */,
+				805AC1702085D66E00A1ACEB /* XQB.m in Sources */,
+				805AC1762085D68E00A1ACEB /* XQC.m in Sources */,
 				805AC13B2085D64200A1ACEB /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,12 +478,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 89G2FJWHP7;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TestLoadFunc/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.chinawayEnterprise.G7Analytics.TestLoadFunc;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xq.TestLoadFunc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -444,12 +494,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 89G2FJWHP7;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TestLoadFunc/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.chinawayEnterprise.G7Analytics.TestLoadFunc;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xq.TestLoadFunc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

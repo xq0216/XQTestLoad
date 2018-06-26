@@ -7,18 +7,19 @@
 //
 
 #import "ViewController.h"
-
+#import "XQC.h"
 @interface ViewController ()
-
 @end
 
 @implementation ViewController
+- (void)dealloc{
 
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
 
+    [XQC new];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
